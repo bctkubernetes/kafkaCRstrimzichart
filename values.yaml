@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: nginx
-  tag: stable
+  repository: 702769831180.dkr.ecr.ap-south-1.amazonaws.com/pvrkubernetes/kafkacrstrimzichart
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
