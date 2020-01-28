@@ -4,7 +4,7 @@ metadata:
   name: kafka-cluster
 spec:
   kafka:
-    version: 2.3.0 # Kafka version
+    version: 2.4.0 # Kafka version
     replicas: 3 # Replicas specifies the number of broker nodes.
     listeners: # Listeners configure how clients connect to the Kafka cluster
       plain: {} # 9092
